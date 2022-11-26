@@ -1,0 +1,131 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  color: #fff;
+  font-family: "Overpass", sans-serif;
+}
+.container {
+  background-color: hsl(216, 12%, 8%);
+  max-width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  background-color: #fff;
+  width: 40rem;
+  height: 40rem;
+  padding: 3rem;
+  border-radius: 3rem;
+  background-color: hsl(213, 19%, 18%);
+}
+.star-img-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 4rem;
+  height: 4rem;
+  background-color: rgba(255, 255, 255, 0.05);
+  border-radius: 50%;
+  margin-bottom: 3.6rem;
+}
+.star-img {
+  width: 2rem;
+  height: 2rem;
+  padding: 0.1rem;
+}
+.card-heading {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+.card-p {
+  font-size: 1.5rem;
+  color: hsl(216, 12%, 54%);
+  line-height: 1.5;
+  margin-bottom: 3rem;
+}
+.rating {
+  justify-content: space-between;
+  display: flex;
+  list-style: none;
+  color: hsl(216, 12%, 54%);
+  margin-bottom: 2.4rem;
+}
+.rating-num {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+  font-size: 1.6rem;
+  background-color: rgba(255, 255, 255, 0.05);
+}
+.rating-num:hover {
+  cursor: pointer;
+  background-color: hsl(25, 97%, 53%);
+  color: #fff;
+}
+.btn {
+  display: inline-block;
+  text-align: center;
+  width: 100%;
+  height: 5rem;
+  font-size: 1.5rem;
+  font-weight: 400;
+  letter-spacing: 0.2rem;
+  background-color: hsl(25, 97%, 53%);
+  border: none;
+  color: #fff;
+  border-radius: 30rem;
+}
+.btn:hover {
+  color: hsl(25, 97%, 53%);
+  background-color: #fff;
+  cursor: pointer;
+}
+.rating-page {
+  display: block;
+}
+/* ************************************  */
+.thank-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  display: none;
+}
+.thank-img {
+  margin-top: 1rem;
+  margin-bottom: 3rem;
+}
+.selection {
+  display: inline-block;
+  font-size: 1.6rem;
+  padding: 0.4rem 2rem;
+  border-radius: 20rem;
+  color: hsl(25, 97%, 53%);
+  background-color: rgba(255, 255, 255, 0.05);
+  margin-bottom: 3.6rem;
+}
+.thank-header {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+.thank-p {
+  font-size: 1.5rem;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.4);
+  line-height: 1.6;
+}
+.selected-rating {
+  background-color: hsl(217, 12%, 63%);
+  color: #fff;
+}
